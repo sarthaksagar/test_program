@@ -1,7 +1,7 @@
 class Teat {
   void num() {
     Map<String, dynamic> iteam = {"Name ": "Sarthak", "id": 18};
-    iteam['adas'] = 12;
+    iteam['add.'] = 12;
     print(iteam);
   }
 }
