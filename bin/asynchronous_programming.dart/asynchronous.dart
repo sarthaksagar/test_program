@@ -83,3 +83,29 @@
 //   });
 //   print("obt");
 // }
+
+// void main() async {
+//   print("Sagar");
+//   await add();
+//   print("Ram");
+// }
+
+// void add() async {
+//   await Future.delayed(Duration(seconds: 2)).then((v) {
+//     print( 'Sarthak');
+//   });
+// }
+
+void main() {
+  print("Wati number is  printing");
+  add().listen((v) {
+    print(v);
+  });
+}
+
+Stream<int> add() async* {
+  for (int a = 1; a <= 10; a++) {
+    await Future.delayed(Duration(seconds: 3));
+    yield a;
+  }
+}

@@ -1,11 +1,15 @@
-void main() {
-  Data<int> obj = Data(12);
-  Data<String> obj1 = Data("sarthak");
-  print(obj.data);
-  print(obj1.data);
+// ignore_for_file: non_constant_identifier_names
+
+class Adddata<int> {
+  int Data;
+  Adddata(this.Data);
 }
 
-class Data<T> {
-  T data;
-  Data(this.data);
+void main() {
+  Adddata obj = Adddata(12);
+  Adddata obj1 = Adddata("Sa");
+  Adddata obj2 = Adddata(2.3);
+  print(obj2.Data);
+  print(obj.Data);
+  print(obj1.Data);
 }
