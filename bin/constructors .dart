@@ -38,3 +38,14 @@
 //   Test obj = Test(12, "s");
 //   obj.iteam();
 // }
+class Car {
+  int a;
+  int b;
+  int? c;
+  Car({required this.a, required this.b, this.c});
+}
+
+void main() {
+  Car obj = Car(a: 12, b: 32, c: null);
+  print(obj.a);
+}

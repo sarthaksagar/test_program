@@ -18,6 +18,6 @@ class add<T extends num> {
 }
 
 void main() {
-  add obj = add(15);
+  add obj = add(5);
   print(obj.data);
 }
