@@ -27,3 +27,19 @@
 //   coloe obj = coloe();
 //   obj.Color();
 // }
+
+abstract class Car {
+  Start();
+}
+
+class TATA extends Car {
+  @override
+  Start() {
+    print("speed");
+  }
+}
+
+void main() {
+  TATA obj = TATA();
+  obj.Start();
+}

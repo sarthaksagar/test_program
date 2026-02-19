@@ -9,7 +9,7 @@
 void main() {
   List<dynamic> num = [223, 32, 1, 3, 2, 3, 2, 11];
 
-  num.forEach((value) {
+  for (var value in num) {
     print(value);
-  });
+  }
 }

@@ -1,0 +1,31 @@
+1] check ternary operator
+2] check if switch case can be converted to if else or not
+3] difference between define and declare
+
+
+            void main()
+            {
+                int a=10;
+                int b=20;
+                int num=(a>b)?a:b;
+                print(num);
+            }
+
+
+    void main
+    {
+        int a=10;
+        int b=20;
+      if(a<b)
+      {
+        print("10 is big");
+      }
+      else if(a>20)
+      {
+        print("20 is big)
+      }
+      else{
+         print("both are same.)
+      }
+    }
+    

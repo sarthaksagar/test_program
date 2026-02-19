@@ -1,11 +1,14 @@
-class test {
+class Test {
   void num() {
-    Set<int> iteam = {2, 4, 2, 5, 6};
-    print(iteam.iterator);
+    for (int a = 1; a <= 20; a++) {
+      Set<int> iteam = {2, 4, 2, 5, 6};
+
+      print(iteam);
+    }
   }
 }
 
 void main() {
-  test obj = test();
+  Test obj = Test();
   obj.num();
 }
